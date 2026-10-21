@@ -27,7 +27,7 @@ Financial bugs are the ones you can't ship twice. This checklist encodes the har
 Via the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add financial-core-change
+npx skills add 9tmd/financial-core-change-skill@financial-core-change
 ```
 
 Or copy it manually into your project or user skills directory:
@@ -44,11 +44,7 @@ cp skills/financial-core-change/SKILL.md ~/.claude/skills/financial-core-change/
 
 ## Usage
 
-The skill self-triggers on keywords like *payout, migration, reversal, balance, money-movement, financial core*. You can also invoke it explicitly:
-
-```
-/financial-core-change
-```
+The skill self-triggers on keywords like *payout, migration, reversal, balance, money-movement, financial core*. You can also invoke it explicitly with `/financial-core-change`.
 
 ## License
 
